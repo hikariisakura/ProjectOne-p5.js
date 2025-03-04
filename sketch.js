@@ -43,8 +43,8 @@ function draw() {
       {active = 0;
       }
 
-  //After 5 clicks it moves onto a new state where it shows the output of the loop
-    if (clicks>5){
+  //After 3 clicks it moves onto a new state where it shows the output of the loop
+    if (clicks>3){
       currentState = 'gacha';
     }
   }
