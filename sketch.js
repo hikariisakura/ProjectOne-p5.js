@@ -20,7 +20,7 @@ function setup() {
 function draw() {
   if (currentState == 'start'){
     background('#F3B9D2');
-    image(img1,0,0,500,500)
+    image(img1,0,0,500,500);
   }
 
   if (currentState == 'turning'){
@@ -33,7 +33,9 @@ function draw() {
     else if(active === 2) 
       {image(img3,0,0,500,500);
       }
-    else if(active === 3) active = 0;
+    else if(active === 3) 
+      {active = 0;
+      }
 
     if (clicks>5){
       currentState = 'gacha';
