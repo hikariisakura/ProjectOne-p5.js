@@ -5,10 +5,10 @@ let song;
 var active = 0;
 
 function preload(){
-  img1 =loadImage("img/gacha1.png");
-  img2 =loadImage("img/gacha2.png");
-  img3 =loadImage("img/gacha3.png");
-  img4 =loadImage("img/prize.png");
+  img1 =loadImage("../img/gacha1.png");
+  img2 =loadImage("../img/gacha2.png");
+  img3 =loadImage("../img/gacha3.png");
+  img4 =loadImage("../img/prize.png");
   mySound =loadSound("gachapon.mp3");
 }
 
